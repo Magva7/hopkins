@@ -32,20 +32,6 @@ div.container{
   border: 1px solid green;
 }
 
-/*div.container:first-child{*/
-/*  margin-left: 2%;*/
-/*  margin-right: 1%;*/
-/*  margin-bottom: 1%;*/
-/*}*/
-
-/*div.container:nth-child(2){*/
-/*  margin-right: 1%;*/
-/*}*/
-
-/*div.container:last-child{*/
-/*  !*margin-right: 1%;*!*/
-/*}*/
-
 h2{
   text-align: center; /*выравнивание самого текста внутри блока*/
   width: 36%; /*ширина самого блока*/
@@ -83,7 +69,6 @@ h2{
   #div2{
     margin-left: 1%;
     margin-right: 1%;
-    margin:0 auto;
     /*color: green;*/
   }
 
@@ -100,10 +85,29 @@ h2{
   }
 
   .col-md-6 {
-    width: 50%;
+    width: 48%;
   }
 
   .col-md-12 {
-    width: 100%;
+    width: 98%;
+  }
+
+  #div1{
+    margin-left: 1%;
+    margin-right: 1%;
+    /*color: red;*/
+  }
+
+  #div2{
+    margin-left: 1%;
+    margin-right: 1%;
+    /*color: green;*/
+  }
+
+  #div3{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /*color: blue;*/
   }
 }
