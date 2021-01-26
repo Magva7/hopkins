@@ -6,6 +6,7 @@
 }
 h1 {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 p {
@@ -27,14 +28,15 @@ p {
 div.container{
   position: relative;
   background-color: lightsalmon;
+  /*padding: 10px;*/
+  margin: 10px;
 }
 
 
 h2{
-  /*text-align: right; !*выравнивание самого текста внутри блока*!*/
-  /*width: 30%; !*ширина самого блока*!*/
+  text-align: center; /*выравнивание самого текста внутри блока*/
+  width: 30%; /*ширина самого блока*/
   position: absolute;
-  /*  background-color: green;*/
   border: 1px solid black;
   right: 0px;
 }
