@@ -21,9 +21,9 @@ p {
   top: 30px;
 }
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
+  margin: 0 auto;
 }
 
 div.container{
@@ -48,7 +48,7 @@ div.container{
 
 h2{
   text-align: center; /*выравнивание самого текста внутри блока*/
-  width: 32%; /*ширина самого блока*/
+  width: 36%; /*ширина самого блока*/
   position: absolute;
   border: 1px solid black;
   right: 0;
@@ -70,8 +70,26 @@ h2{
 @media (min-width: 992px) {
 
   .col-lg-4 {
-    width: 33.33%;
+    width: 31.2%;
     float: left;
+  }
+
+  #div1{
+    margin-left: 2%;
+    margin-right: 1%;
+    /*color: red;*/
+  }
+
+  #div2{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin:0 auto;
+    /*color: green;*/
+  }
+
+  #div3{
+    margin-left: 1%;
+    /*color: blue;*/
   }
 }
 
