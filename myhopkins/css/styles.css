@@ -8,6 +8,7 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-size: 175%;
 }
 
 p {
@@ -36,6 +37,7 @@ h2{
   position: absolute;
   border: 1px solid black;
   right: 0;
+  font-size: 125%;
 }
 
 #h2-1 {
@@ -87,18 +89,18 @@ h2{
     width: 98%;
   }
 
-  #div1{
+  #div1, #div2, #div3{
     margin-left: 1%;
     margin-right: 1%;
   }
 
-  #div2 {
-    margin-left: 1%;
-    margin-right: 1%;
-  }
+  /*#div2 {*/
+  /*  margin-left: 1%;*/
+  /*  margin-right: 1%;*/
+  /*}*/
 
-  #div3{
-    margin-left: 1%;
-    margin-right: 1%;
-  }
+  /*#div3{*/
+  /*  margin-left: 1%;*/
+  /*  margin-right: 1%;*/
+  /*}*/
 }
