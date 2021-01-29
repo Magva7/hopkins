@@ -15,8 +15,8 @@ p {
   color: black;
   width: 100%;
   position: relative;
-  /*top: 30px;*/
   padding: 35px 10px 10px 10px;
+  border: 1px solid black;
 }
 
 .row {
@@ -27,7 +27,6 @@ p {
 div.container {
   position: relative;
   background-color: lightsalmon;
-  border: 1px solid green;
   margin-bottom: 1%;
 }
 
