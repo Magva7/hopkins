@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+ 
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 175%;
+  margin-bottom: 15px; 
+  margin-right: auto; 
+  margin-left: auto; 
+  text-align: center;
+  
+}
+
+p {
+  color: black;
+  clear: both;
+  font-family: Verdana;
+  margin: 2px;
+  padding: 10px;
+  text-align: justify;
+  
+}
+
+
+ /*Style for section titles*/ 
+
+.title{
+  border: 1px solid black;
+  float: right;
+  font-size: 125%;
+  font-family: Verdana;
+  margin-right: -1px;
+  margin-top: -1px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-align: center;
+  width: 120px;
+}
+
+#chicken{
+  background-color: #FFEBCD;
+}
+#beef{
+  background-color: #ff4d4d;
+}
+#sushi{
+  background-color: #FFA07A;
+}
+
+
+/* Responsive Framework */
+.row {
+  margin:5px;
+  width: 100%;
+  
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1 {
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    float: left; 
+    margin: 5px;
+    width: calc(33.33% - 10px);
+https://anna-kirillina.github.io/coursera/  
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2{
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    float: left; 
+    margin:5px;
+  }
+  
+  .col-md-1 {
+    width: calc(50% - 10px);
+  }
+  .col-md-2 {
+    width: calc(100% - 10px);
+  }
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1 {
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    float: left; 
+    margin: 5px;
+    width: calc(100% - 10px);
+  }
+
+}
+
+
+
