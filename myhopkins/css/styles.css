@@ -6,11 +6,13 @@
 }
 
 /*Фикс, чтобы надпись Food. LLC была в верхнем левом углу*/
-.container div.navbar-header {
+div.navbar-brand {
     margin-top: -30px;
 }
 
-/*.navbar-header*/
+/*.navbar-brand h1 {*/
+/*    margin-left: -50px;*/
+/*}*/
 
 /*Фикс, чтобы кнопка меню в мобильном виде не уезжала вниз шапки*/
 .navbar-header button.navbar-toggle {
