@@ -5,7 +5,7 @@
     border: 0;
 }
 
-#my-navbar-brand {
-    margin: 0;
-    padding: 0;
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
 }
