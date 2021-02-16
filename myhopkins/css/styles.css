@@ -45,15 +45,16 @@ div.navbar-brand {
 }
 
 /**********3 секции************/
-h2, p {
-    padding: 0 10px; /*отступы для заголовка и абзаца*/
+h3, p {
+    padding: 5px 10px; /*отступы для заголовка и абзаца*/
 }
 
-h2 {
+h3 {
     margin-bottom: 0; /*отступ между заголовком и абзацем*/
+    text-align: center;
 }
 
-.row .container p, .row .container h2{
+.row .container p, .row .container h3{
     background-color: wheat;
 }
 
