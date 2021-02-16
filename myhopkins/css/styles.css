@@ -58,6 +58,10 @@ h3 {
     background-color: wheat;
 }
 
+.row{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     #collapsable-nav a { /* Размер шрифта у строчек меню, которое сворачивается - делаем больше на 20%*/
