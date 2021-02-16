@@ -49,6 +49,14 @@ h2, p {
     padding: 0 10px; /*отступы для заголовка и абзаца*/
 }
 
+h2 {
+    margin-bottom: 0; /*отступ между заголовком и абзацем*/
+}
+
+.row .container p, .row .container h2{
+    background-color: wheat;
+}
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     #collapsable-nav a { /* Размер шрифта у строчек меню, которое сворачивается - делаем больше на 20%*/
