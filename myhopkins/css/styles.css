@@ -44,6 +44,11 @@ div.navbar-brand {
     border: 1px solid #61122f;
 }
 
+/**********3 секции************/
+h2, p {
+    padding: 0 10px; /*отступы для заголовка и абзаца*/
+}
+
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
     #collapsable-nav a { /* Размер шрифта у строчек меню, которое сворачивается - делаем больше на 20%*/
