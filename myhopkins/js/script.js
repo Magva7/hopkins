@@ -1,5 +1,5 @@
 (function () {
-  // *******************************
+  // Test1*******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
 //
@@ -53,7 +53,7 @@
     var firstLetterNoRegistr = currentElement.charAt(0); /*Первая буква в текущем элементе, пока как есть, регистр
     //  не трогаем*/
 
-    var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в  нижнем регистре**/
+    var firstLetter = firstLetterNoRegistr.toLowerCase(); /*Первая буква в текущем элементе, в  нижнем регистре*/
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
@@ -61,6 +61,7 @@
     // name in the loop.
     if (firstLetter == 'j') {
       byeSpeaker.sayWord(currentElement);
+      console.log('test1');
     } else {
       helloSpeaker.sayWord(currentElement);
     }
