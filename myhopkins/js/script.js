@@ -52,18 +52,17 @@
     // Look up these methods on Mozilla Developer Network web site if needed.
     var firstLetterNoRegistr = currentElement.charAt(0); /*Первая буква в текущем элементе, пока как есть, регистр
     //  не трогаем*/
-    console.log(firstLetterNoRegistr);
-    // var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в  нижнем регистре**/
 
+    var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в  нижнем регистре**/
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    // if (firstLetter == 'j') {
-    //   // byeSpeaker.sayWord(currentElement);
-    // } else {
-    //   // helloSpeaker.xxxx
-    // }
+    if (firstLetter == 'j') {
+      byeSpeaker.sayWord(currentElement);
+    } else {
+      helloSpeaker.sayWord(currentElement);
+    }
   }
 })();
