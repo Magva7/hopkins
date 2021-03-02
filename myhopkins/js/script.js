@@ -41,7 +41,7 @@
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-  for (var i = 0;i<names.length;i++) {
+  for (var i = 0;i <= names.length;i++) {
     var currentElement = names[i]; /**Текущий элемент массива**/
     // STEP 11:
     // Retrieve the first letter of the current name in the loop.
@@ -50,19 +50,20 @@
     // string object's 'toLowerCase' method on the result so we can compare
     // to lower case character 'j' afterwards.
     // Look up these methods on Mozilla Developer Network web site if needed.
-    var firstLetterNoRegistr = currentElement.charAt(0); /**Первая буква в текущем элементе, пока как есть, регистр
-     не трогаем**/
-    var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в  нижнем регистре**/
+    // var firstLetterNoRegistr = currentElement.charAt(0); /*Первая буква в текущем элементе, пока как есть, регистр
+    //  не трогаем*/
+    console.log(currentElement);
+    // var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в  нижнем регистре**/
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    if (/* fill in condition here */) {
-      // byeSpeaker.xxxx
-    } else {
-      // helloSpeaker.xxxx
-    }
+    // if (firstLetter == 'j') {
+    //   // byeSpeaker.sayWord(currentElement);
+    // } else {
+    //   // helloSpeaker.xxxx
+    // }
   }
 })();
