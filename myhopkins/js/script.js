@@ -1,5 +1,5 @@
 (function () {
-  // Test1*******************************
+  // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
 //
@@ -61,7 +61,6 @@
     // name in the loop.
     if (firstLetter == 'j') {
       byeSpeaker.sayWord(currentElement);
-      console.log('test1');
     } else {
       helloSpeaker.sayWord(currentElement);
     }
