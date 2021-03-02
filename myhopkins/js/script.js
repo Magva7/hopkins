@@ -41,8 +41,8 @@
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-  for (/* fill in parts of the 'for' loop to loop over names array */) {
-
+  for (var i = 0;i<names.length;i++) {
+    var currentElement = names[i]; /**Текущий элемент массива**/
     // STEP 11:
     // Retrieve the first letter of the current name in the loop.
     // Use the string object's 'charAt' function. Since we are looking for
@@ -50,7 +50,9 @@
     // string object's 'toLowerCase' method on the result so we can compare
     // to lower case character 'j' afterwards.
     // Look up these methods on Mozilla Developer Network web site if needed.
-    // var firstLetter =
+    var firstLetterNoRegistr = currentElement.charAt(0); /**Первая буква в текущем элементе, пока как есть, регистр
+     не трогаем**/
+    var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в нижнем регистре**/
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
