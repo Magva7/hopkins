@@ -52,7 +52,7 @@
     // Look up these methods on Mozilla Developer Network web site if needed.
     var firstLetterNoRegistr = currentElement.charAt(0); /**Первая буква в текущем элементе, пока как есть, регистр
      не трогаем**/
-    var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в нижнем регистре**/
+    var firstLetter = firstLetterNoRegistr.toLowerCase(); /**Первая буква в текущем элементе, в  нижнем регистре**/
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
